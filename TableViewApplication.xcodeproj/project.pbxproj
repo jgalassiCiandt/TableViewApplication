@@ -14,7 +14,6 @@
 		AC30065C1B21E8820028B70F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC30065A1B21E8820028B70F /* LaunchScreen.xib */; };
 		AC3006681B21E8820028B70F /* TableViewApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3006671B21E8820028B70F /* TableViewApplicationTests.m */; };
 		AC3006731B21E9150028B70F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3006721B21E9150028B70F /* TableViewController.m */; };
-		AC3006751B21EC950028B70F /* Img in Resources */ = {isa = PBXBuildFile; fileRef = AC3006741B21EC950028B70F /* Img */; };
 		AC3006781B21EEA10028B70F /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3006771B21EEA10028B70F /* TableCell.m */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		AC3006671B21E8820028B70F /* TableViewApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewApplicationTests.m; sourceTree = "<group>"; };
 		AC3006711B21E9150028B70F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		AC3006721B21E9150028B70F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		AC3006741B21EC950028B70F /* Img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Img; sourceTree = "<group>"; };
 		AC3006761B21EEA10028B70F /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
 		AC3006771B21EEA10028B70F /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +101,6 @@
 		AC30064B1B21E8820028B70F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC3006741B21EC950028B70F /* Img */,
 				AC30064C1B21E8820028B70F /* Info.plist */,
 				AC30064D1B21E8820028B70F /* main.m */,
 			);
@@ -207,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3006751B21EC950028B70F /* Img in Resources */,
 				AC3006571B21E8820028B70F /* Main.storyboard in Resources */,
 				AC30065C1B21E8820028B70F /* LaunchScreen.xib in Resources */,
 				AC3006591B21E8820028B70F /* Images.xcassets in Resources */,
@@ -426,6 +422,7 @@
 				AC30066D1B21E8820028B70F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC30066E1B21E8820028B70F /* Build configuration list for PBXNativeTarget "TableViewApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +431,7 @@
 				AC3006701B21E8820028B70F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

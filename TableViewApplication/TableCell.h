@@ -12,6 +12,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *DescriptionLabel;
-@property (strong, nonatomic) IBOutlet UIImage *ThumbImage;
+#warning - This property was an instance of UIImage and this type is not compatible with storyboard components it should be an instance of UIImageView as it is below
+@property (strong, nonatomic) IBOutlet UIImageView *ThumbImage;
 
 @end

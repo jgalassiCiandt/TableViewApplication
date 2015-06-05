@@ -88,7 +88,8 @@
     
     cell.TitleLabel.text = _Titles[row];
     cell.DescriptionLabel.text = _Description[row];
-    cell.ThumbImage = [UIImage imageNamed:_Images[row]];
+#warning - The cell's property 'ThumbImage' now is an instance of UIImageView
+    cell.ThumbImage.image = [UIImage imageNamed:_Images[row]];
     
     return cell;
 }
