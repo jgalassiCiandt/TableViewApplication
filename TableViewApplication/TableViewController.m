@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "TableCell.h"
+#import "DetailViewController.h"
 
 @interface TableViewController ()
 
@@ -92,6 +93,19 @@
     cell.ThumbImage.image = [UIImage imageNamed:_Images[row]];
     
     return cell;
+}
+
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([[segue identifier] isEqualToString:@"ShowDetails"]) {
+        DetailViewController *detailviewcontroller = [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
+        
+        NSInteger row = [myIndexPath row];
+        detailviewcontroller.DetailModal = @[_Titles[row],_Description[row],_Images[row]];
+    }
 }
 
 

@@ -15,6 +15,7 @@
 		AC3006681B21E8820028B70F /* TableViewApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3006671B21E8820028B70F /* TableViewApplicationTests.m */; };
 		AC3006731B21E9150028B70F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3006721B21E9150028B70F /* TableViewController.m */; };
 		AC3006781B21EEA10028B70F /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3006771B21EEA10028B70F /* TableCell.m */; };
+		ACBD78751B22502700F10DB5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBD78741B22502700F10DB5 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		AC3006721B21E9150028B70F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		AC3006761B21EEA10028B70F /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
 		AC3006771B21EEA10028B70F /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		ACBD78731B22502700F10DB5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ACBD78741B22502700F10DB5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				AC3006721B21E9150028B70F /* TableViewController.m */,
 				AC3006761B21EEA10028B70F /* TableCell.h */,
 				AC3006771B21EEA10028B70F /* TableCell.m */,
+				ACBD78731B22502700F10DB5 /* DetailViewController.h */,
+				ACBD78741B22502700F10DB5 /* DetailViewController.m */,
 				AC30064F1B21E8820028B70F /* AppDelegate.h */,
 				AC3006501B21E8820028B70F /* AppDelegate.m */,
 				AC3006551B21E8820028B70F /* Main.storyboard */,
@@ -225,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBD78751B22502700F10DB5 /* DetailViewController.m in Sources */,
 				AC3006511B21E8820028B70F /* AppDelegate.m in Sources */,
 				AC3006731B21E9150028B70F /* TableViewController.m in Sources */,
 				AC3006781B21EEA10028B70F /* TableCell.m in Sources */,
